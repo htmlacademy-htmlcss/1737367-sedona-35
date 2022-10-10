@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Надежда Хаустова](https://up.htmlacademy.ru/htmlcss/35/user/1737367).
-* Наставник: [Анастасия Ничипорчук](https://htmlacademy.ru/profile/id612797).
+* Наставник: [Анастасия :) Ничипорчук](https://htmlacademy.ru/profile/id612797).
 
 ---
 
