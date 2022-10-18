@@ -6,11 +6,11 @@
   </head>
   <body>
     <header class="page header">
-      <img class="logo" src="https://htmlacademy.ru/" alt="Логотип Седоны"
+      <a><img class="logo" src="https://htmlacademy.ru/" alt="Логотип Седоны"></a>
       <nav class="page navigation"> 
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="main.html">Главная</a>
+            <a class="navigation-link">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="aboutsedona.html">О Седоне</a>
@@ -55,8 +55,6 @@
         <li class="advantage-item">
           <h3 class="advantage-title">НАСТОЯЩИЙ ГОРОДОК</h3>
           <P>Седона - не аттракцион для туристов, там течёт своя жизнь</P>
-        </li>
-        <li class="advantage-item">
           <img src="" alt="">
         </li>
         <li class="advantage-item">
@@ -73,15 +71,11 @@
         </li>
         <li class="advantage-item">
           <img src="" alt="">
-        </li>
-        <li class="advantage-item">
-          <h3 class="advantage-title">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
+           <h3 class="advantage-title">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
           <P>Да, по нему можно пройти! Если сомелитесь, разумеется!</P>
         </li>
-        <li class="advantage-item">
-          <h3 class="advantage-title">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
-          <P>Да, по нему можно пройти! Если сомелитесь, разумеется!</P>
-        </li>
+      </ul>
+       <ul>
         <li class="advantage-item">
           <h3 class="advantage-title">ЖИЛЬЕ</h3>
           <P>Рекомендуем поискать в настоящем мотеле, все как в кино!</P> 
@@ -94,19 +88,12 @@
           <h3 class="advantage-title">СУВЕНИРЫ</h3>
           <P>Не только китайского, но и настоящего местного производства!</P> 
         </li>
-       
-      
-      
-      
-    
-    
-     
-
-ВОТ ЭТО <-- НЕ ПОНИМАЮ КАК СДЕЛАТЬ КНОПКУПОИСК ГОСТИНИЦЫ И СОВМЕСТИТЬ С ВКЛАДКОЙ НАЙТИ ГОСТИНИЦУ)-->
+       </ul> 
       <section class="appointment">
         <h2 class="appointment-title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
         <P>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне </P>
-        <form class="appointment-form" ction="" method="post">
+        <a href="#">Поиск гостиницы в Седоне</a>
+        <form class="appointment-form" action="" method="post">
           <p class="appointment-form-date">
             <label for="appointment-date">Дата Заезда</label>
             <input type="text" id="appointment-date" name="appointment-date" placeholder="27 апреля 2020">
@@ -126,43 +113,44 @@
           <button class="button" type="submit">Найти</button>
         </form>
       </section>
-      
-
-
-    </main>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+      <section class="subscription">
+        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+        <p class="subscription-title-form">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="subscription-form" action="#" method="post">
+          <p class="subscription-form-container">
+            <input class="field" type="email" name="subscription-email" placeholder="Ваш e-mail">
+            <button class="button-subscription-button" type="sybmit">Подписаться</button>
+          </p>
+        </form>
+      </section>
+    </main>   
 <footer class="page-footer">
   <section class="footer-contacts">
-
-
-<ul>
-  <li>
+    <h2 class="visually-hedden">Соцсети</h2>
+<ul class="footer-sical-list">
+  <li class="footer-social-item">
     <a class="button" href="#">
       <span class="vissually-hidden">Вконтакте</span>
     </a>
   </li>
-  <li>
+  <li class="footer-social-item">
     <a class="button" href="#">
       <span class="vissually-hidden">Телеграмм</span>
     </a>
   </li>
-  <li>
+  <li class="footer-social-item">
     <a class="button" href="#">
       <span class="vissually-hidden">Youtube</span>
     </a>
   </li>
 </ul>
-
-<img class="footer-contats-logo" src=" alt="Логотип .HTML Academy">
-<a class="footer-contats-adress-phone" href="tel:+78128121212">+7 (812) 812 12 12 </a>
-
-
-  </section>
-
+</section>
+<section class="footer-contact">
+  <a class="footer-contats-adress-phone" href="tel:+78128121212">+7 (812) 812 12 12 </a>
+</section>
+<section class="footer-logo">
+  <a href="https://htmlacademy.ru"><img class="footer-contats-logo" src="" alt=Логотип .HTML Academy"></a>
+</section>
 </footer>
-
-
-
   </body>
 </html>
