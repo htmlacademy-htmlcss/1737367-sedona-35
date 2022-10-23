@@ -156,22 +156,28 @@
        </div>
 
         <form class="hotel-appointment-form" action="" method="post">
-          <p class="hotel-appointment-form-date">
+          <div class="hotel-appointment-form-date">
             <label for="hotel-appointment-date">Дата Заезда</label>
             <input type="text" id="hotel-appointment-date" name="hotel-appointment-date" placeholder="27 апреля 2020">
-          </p>
-          <p class="hotel-appointment-form-date">
+          </div>
+          <div class="hotel-appointment-form-date">
             <label for="hotel-appointment-date">Дата Выезда</label>
             <input type="text" id="hotel-appointment-date" name="hotel-appointment-date" placeholder="1 сентября 2023">
-          </p>
-          <p class="hotel-appointment-form-age">
-            <label for="hotel-appointment-age">Возраст</label>
+          </div>
+          <div class="hotel-appointment-form-age">
+            <label for="hotel-appointment-age">Взрослые</label>
             <input type="text" id="hotel-appointment-age" name="hotel-appointment-age" placeholder="2">
-          </p>
-          <p class="hotel-appointment-form-child">
+          </div>
+          <div class="hotel-appointment-form-child">
             <label for="hotel-appointment-child">Дети</label>
+            <a class="рotel-appointment-form-child-link" href="#">
+              <span class="vissually-hidden">Информация дополнительная</span>
+              <p>
+                Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+              </p>
+            </a>
             <input type="text" id="hotel-appointment-child" name="hotel-appointment-child" placeholder="2">
-          </p>
+          </div>
           <button class="button hotel-button" type="submit">Найти</button>
         </form>
         
