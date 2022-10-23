@@ -3,39 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="">
   </head>
   <body>
+
     <header class="page header">
-      <a><img class="logo" src="https://htmlacademy.ru/" alt="Логотип Седоны"></a>
+      <a class="navigation-logo" href="index.html">
+        <img class="logo-header" src="img/logo_Sedona.svg" alt="Логотип Седоны." width="138" height="64"></a>
       <nav class="page navigation"> 
         <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-current ">Главная</a>
+          <li class="navigation-list-item">
+            <a class="navigation-link current" href="#">Главная</a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="index_katalog.html">О Седоне</a>
+          <li class="navigation-list-item">
+            <a class="navigation-link" href="#">О Седоне</a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="hotel.html">Гостиницы</a>
+          <li class="navigation-list-item">
+            <a class="navigation-link" href="index_katalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
+          <li class="navigation-user-list-item search">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">
                 Поиск
               </span>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-user-list-item favorites">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Оценка
+              <span class="visually-hidden favorites">
+                Любимое
               </span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">ХОЧУ СЮДА!
+          <li class="navigation-item-user-list-item order">
+            <a class="navigation-link button order-button" href="#">ХОЧУ СЮДА!
               <span class="visually-hidden">
                 Выбор
               </span>
@@ -44,11 +47,15 @@
         </ul>
       </nav>
     </header>
+
     <main class="main-index">
+      <div class="page-container">
       <h1 class="visually-hidden">
         Седона-небольшой городок в Аризоне
       </h1>
-      <img class="logo" src="" alt="Логотип Седона">
+      <div class="main-logo-container">
+      <img class="main-logo" src="img/welcome_logo_sedona.svg" alt="Логотип Седона.">
+     </div>
       <div class="adventages"> СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!> 
         <P> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</P>
       <ul class="advantage-list">
@@ -123,7 +130,10 @@
           </p>
         </form>
       </section>
-    </main>   
+     </div>
+
+    </main>  
+
 <footer class="page-footer">
   <section class="footer-contacts">
     <h2 class="visually-hedden">Соцсети</h2>
