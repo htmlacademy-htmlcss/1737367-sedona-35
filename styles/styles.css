@@ -16,5 +16,9 @@ font-family {
     font-display: swap;
 }
 body {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #24242;
+    background-color: #fbf7f4;
 }
