@@ -1,0 +1,24 @@
+body {
+    background: tomato;
+}
+@ font-family {
+    font-family: "RT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format ("woff2");
+    font-display: swap;
+}
+font-family {
+    font-family: "RT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format ("woff2");
+    font-display: swap;
+}
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #24242;
+    background-color: #fbf7f4;
+}
