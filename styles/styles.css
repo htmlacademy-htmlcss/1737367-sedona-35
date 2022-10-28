@@ -17,8 +17,38 @@ font-family {
 }
 body {
     font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 22px;
+    line-height: 26px;
     color: #24242;
     background-color: #fbf7f4;
+}
+/* Pages */
+.page-header
+{ color: #000000;
+    /* basic/white */
+ background-color:  #FFFFFF;
+
+}
+.navigation-link {
+font-family: "PT Sans", sans-serif;
+line height: 24px;
+font-weight: 700;
+text-align: center;
+color: #000000;
+background-color:  #FFFFFF;
+
+ /* отключение подчеркивания */
+text-decoration: none;
+ /* все буквы становятся загравными при uppercase */
+text-transform: uppercase;
+}
+
+.main-index {
+    color: #000000;
+    /* basic/white */
+ background-color:  #FFFFFF;
+
+background-images: url("images/index-background-1.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
 }

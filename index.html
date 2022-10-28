@@ -9,18 +9,18 @@
 
     <header class="page header">
       <nav class="page navigation"> 
+
+          <nav class="logo-container">
+            <a class="navigation-logo" href="index.html">
+              <img class="logo-header" src="images/icons-header/logo-sedona.svg" alt="Логотип Седоны." width="138" height="64">
+            </a>
+          </nav>
+        
         <ul class="navigation-list">
 
-          <li class="navigation-list-item logo-item">
-            <div class="logo-container">
-              <a class="navigation-logo" href="index.html">
-                <img class="logo-header" src="images/icons-header/logo-sedona.svg" alt="Логотип Седоны." width="138" height="64">
-              </a>
-            </div>
-          </li>
 
           <li class="navigation-list-item">
-            <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+            <a class="navigation-link navigation-link-current">Главная</a>
           </li>
 
           <li class="navigation-list-item">
@@ -45,9 +45,7 @@
             </a>
           </li>
           <li class="navigation-item-user-list-item order">
-            <a class="navigation-link button order-button" href="#">Хочу сюда!
-              <span class="visually-hidden">Выбор.</span>
-            </a>
+            <a class="navigation-link button order-button" href="#"> Хочу сюда! </a>
           </li>
         </ul>
       </nav>
@@ -74,12 +72,12 @@
 
       <ul class="advantage-list-container">
 
-        <li class="advantage-item list-item real-town">
-          <div class="advantage-item-container real-town">
-           <b class="advantage-item-title real-town-title">Настоящий городок</b>
-           <p class="advantage-item-paragraph real-town-paragraph">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+        <li class="advantage-item list-item description-local">
+          <div class="advantage-item-container description-local">
+           <b class="advantage-item-title description-local-title">Настоящий городок</b>
+           <p class="advantage-item-paragraph description-local-paragraph">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
          </div>
-          <img class="advantage-item-image real-town-image" src="images/index-background-2-real-town.jpg" alt="Седона. Настоящий город со своей жизнью." width="800" height="384">
+          <img class="advantage-item-image description-local-image" src="images/index-background-2-real-town.jpg" alt="Седона. Настоящий город со своей жизнью." width="800" height="384">
         </li>
 
         <li class="advantage-item list-item description-area">
@@ -163,11 +161,10 @@
             <label for="hotel-appointment-age">Взрослые</label>
             <div class="quantiti-inner">
               <button class="button-plus">
-                <svg viewBox="0 0 24 24"> <line x1="5" y1="12" x2="19" y2="12"></line></svg>
               </button>
               <input type="text" id="hotel-appointment-age" name="hotel-appointment-age" placeholder="2">
-              <button>
-                <svg viewBox="0 0 24 24"> <line x1="12" y1="5" x2="12" y2="19"></line> <line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              <button class="button-minus">
+
               </button>
             </div>
           </div>
@@ -189,7 +186,7 @@
             </button>
           </div>
           </div>
-          
+
           <button class="button hotel-button" type="submit">Найти</button>
         </form>
         
