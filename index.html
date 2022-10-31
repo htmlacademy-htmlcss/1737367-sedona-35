@@ -11,7 +11,7 @@
       <nav class="page navigation"> 
 
           <nav class="logo-container">
-            <a class="navigation-logo" href="index.html">
+            <a class="navigation-logo">
               <img class="logo-header" src="images/icons-header/logo-sedona.svg" alt="Логотип Седоны." width="138" height="64">
             </a>
           </nav>
@@ -59,7 +59,7 @@
       </h1>
       <div class="main-logo-container">
       <img class="main-logo" src="images/welcome-logo-sedona.svg" alt="Логотип с приветсвием Седона." width="458" height="352">
-     </div>
+      </div>
       <section class="description-container"> 
         <b class="description-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</b>
         <p class="description-paragraph"> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -70,7 +70,7 @@
         <h2 class="visually-hidden">Преимущество</h2>
 
 
-      <ul class="advantage-list-container">
+      <ul class="advantage-list">
 
         <li class="advantage-item list-item description-local">
           <div class="advantage-item-container description-local">
@@ -83,7 +83,7 @@
         <li class="advantage-item list-item description-area">
           <div class="advantage-item-container description-area-container">
             <b class="advantage-item-title description-area-title">Небольшая площадь</b>
-            <p class="advantage-item-paragraph description-area-paragraph">все достопримечательности</p>
+            <p class="advantage-item-paragraph description-area-paragraph">все достопримечательности находятся очень близко</p>
           </div>   
         </li>
 
@@ -148,13 +148,16 @@
        </div>
 
         <form class="hotel-appointment-form" action="" method="post">
-          <div class="hotel-appointment-form-date">
+          <div class="hotel-appointment-form-date enter">
+            <h2 class="hotel-appointment-title title">Поиск гостиницы в Седоне</h2>
             <label for="hotel-appointment-date">Дата Заезда</label>
             <input type="text" id="hotel-appointment-date" name="hotel-appointment-date" placeholder="27 апреля 2020">
+            <p class="hotel-appointment-form-date"> Мы не можем отправить вас в прошлое.</p>
           </div>
-          <div class="hotel-appointment-form-date">
+          <div class="hotel-appointment-form-date exit">
             <label for="hotel-appointment-date">Дата Выезда</label>
             <input type="text" id="hotel-appointment-date" name="hotel-appointment-date" placeholder="1 сентября 2023">
+            <p class="hotel-appointment-form-date "> На эти даты есть свободные номера. Пока есть. </p>
           </div>
 
           <div class="hotel-appointment-form-age">
@@ -173,7 +176,7 @@
             <label for="hotel-appointment-child">Дети</label>
             <a class="рotel-appointment-form-child-link" href="#">
               <span class="vissually-hidden">Информация дополнительная.</span>
-              <p>
+              <p class="hotel-appointment-form-child number">
                 Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
               </p>
             </a>
@@ -187,7 +190,7 @@
           </div>
           </div>
 
-          <button class="button hotel-button" type="submit">Найти</button>
+          <button class="button hotel-button-research" type="submit">Найти</button>
         </form>
         
       </section>
