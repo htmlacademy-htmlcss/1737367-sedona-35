@@ -373,6 +373,215 @@ text-transform: uppercase;
 }
 /* label */
 
+/* catalog */
+.inner-header-title {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* Breadcrumbs */
+.breadcrumbs-list {
+  color: #FFFFFF;
+
+}
+
+/* Link */
+.breadcrumbs-link {
+    color: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+/* Title */
+.catalog-filter-title  {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px; 
+    color: #FFFFFF;
+  }
+  
+  /* Label */
+  .control-label {
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+text-transform: uppercase; 
+list-style-type: none;
+  }
+  
+  .filter-apply{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;   
+    color: #FFFFFF;
+    background: #82B3D3;
+    border-radius: 4px;
+  }
+
+  .filter-reset {
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;}
+
+ .sorting-container {
+    width: 141px;
+    height: 21px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;  
+    color: #333333;
+ } 
+
+.hotel-card-title b {
+ font-family: 'PT Sans';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 30px;
+ line-height: 36px;
+ text-transform: uppercase;
+ color: #000000;
+}
+
+.hotel-card-title {
+    ont-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.hotel-card-name {
+ font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+}
+
+.hotel-card-price {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+}
+
+.hotel-card-button-information {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #756157;
+    border-radius: 4px;
+
+}
+
+.hotel-card-button-disable{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #82B3D3;
+border-radius: 4px;
+}
+.rating {color: #333333;
+background: #83B3D3;}
+
+.hotel-card .paragraph {
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+background: #F2F2F2;
+border-radius: 4px;
+}
+<!-- Пагинация -->
+.pagination {
+    
+    
+    
+    background-color: #ffffff;
+  }
+  
+  .pagination-list{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  .pagination-item .pagination-current {
+    font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000; 
+  background: #F2F2F2;
+border-radius: 4px;
+  }
+  
+  .pagination-link{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #82B3D3;
+    border-radius: 4px;
+  }
+  
+
+
+
+
+
 
 /* footer */
 .page-footer {
@@ -400,8 +609,6 @@ color: #000000;
 
 }
 
-
-
 .footer-contats-adress {
     font-style: normal;
     font-size: 40px;
@@ -416,3 +623,4 @@ color: #000000;
 .footer-contats-adress-phone {
     text-decoration: none; 
 }
+
