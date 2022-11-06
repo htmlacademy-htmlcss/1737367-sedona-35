@@ -26,6 +26,11 @@ body {
     color: #24242;
     background-color: #F2F2F2;
 }
+.page-container {
+    margin: 0 auto;
+    width: 1280px;/* или тут 1200px? по макету ?не понимаю*/
+    flex-grow: 1;
+}
 /* Pages */
 .page-header {
     color: #000000;
