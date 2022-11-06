@@ -43,11 +43,35 @@ body {
     height: 64px;
    }
 
+.page-navigation {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    min-height: 64px;
+    width: 100%;
+}
+
 .navigation-list {
+    min-width: 339px;
+    min-height: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
     list-style-type: none;
+}
+
+.navigation-user {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 268px;
+    padding-right: 70px;
+    align-items: center;
 }
 
 .navigation-link {
@@ -75,6 +99,10 @@ body {
     text-decoration: none;
 }
 
+.main-container {
+    flex-grow:1;
+}
+
 .main-index {
     font-style: normal;
     font-size: 22px;
@@ -83,6 +111,19 @@ body {
     background-color:  #FFFFFF;
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation-logo {
+    display: block;
+    margin: 0;
+    padding-left: 70px;
+    min-width: 140px;
+    min-height: 64px;
 }
 
 .main-logo-container {
@@ -113,14 +154,11 @@ body {
 }
  /* list */
 .advantage-list {
-    font-style: normal;
-    font-size: 22px;
-    line-height: 26px;
-    list-style: none;
-    text-align: center;
-    color: #000000;
-    background-color: #ffffff;
-    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 /*добавим всем цвет синий и подправим в каждом на другой */
 .advantage-item .list-item {
@@ -150,6 +188,11 @@ body {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    font-weight: 700;
+    line-height: 28px;
+    min-width: 175px;
+    min-height: 55px;
+    margin: 0;
 }
 
 .advantage-item-paragraph {
