@@ -32,7 +32,7 @@ body {
 }
 .page-container {
     margin: 0 auto;
-    width: 1280px;/* или тут 1200px? по макету ?не понимаю*/
+    width: 1200px;/* или тут 1200px? по макету ?не понимаю*/
     flex-grow: 1;
 }
 /* Pages */
@@ -153,12 +153,18 @@ body {
     text-decoration: none;
 }
  /* list */
+ .advantage {
+    margin: 0;
+ }
+
 .advantage-list {
     margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-align: center;
+    list-style: none;
 }
 /*добавим всем цвет синий и подправим в каждом на другой */
 .advantage-item .list-item {
@@ -189,10 +195,10 @@ body {
     line-height: 28px;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 28px;
     min-width: 175px;
     min-height: 55px;
     margin: 0;
+    padding: 92px 113px 0px 113px;
 }
 
 .advantage-item-paragraph {
