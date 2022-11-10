@@ -20,15 +20,20 @@ html {
 }
 
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 22px;
     line-height: 26px;
-    color: #24242;
+    color:#000000;
     background-color: #F2F2F2;
 }
+
 .page-container {
     margin: 0 auto;
-    width: 1280px;/* или тут 1200px? по макету ?не понимаю*/
+    width: 1200px;/* или тут 1200px? по макету ?не понимаю*/
     flex-grow: 1;
 }
 /* Pages */
@@ -39,11 +44,35 @@ body {
     height: 64px;
    }
 
+.page-navigation {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    min-height: 64px;
+    width: 100%;
+}
+
 .navigation-list {
+    min-width: 339px;
+    min-height: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
     list-style-type: none;
+}
+
+.navigation-user {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 268px;
+    padding-right: 70px;
+    align-items: center;
 }
 
 .navigation-link {
@@ -56,6 +85,15 @@ body {
     list-style-type: none;
     text-align: center;
 }
+
+.navigation-logo {
+    display: block;
+    min-width: 140px;
+    margin-right: 30px;
+    max-height: 64px;
+    margin: 0;
+}
+
  /* хочу сюда! */
  .order-button {
     font-family: inherit;
@@ -71,6 +109,10 @@ body {
     text-decoration: none;
 }
 
+.main-container {
+    flex-grow:1;
+}
+
 .main-index {
     font-style: normal;
     font-size: 22px;
@@ -80,6 +122,12 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 
 .main-logo-container {
     display: block;
@@ -108,15 +156,18 @@ body {
     text-decoration: none;
 }
  /* list */
+ .advantage {
+    margin: 0;
+ }
+
 .advantage-list {
-    font-style: normal;
-    font-size: 22px;
-    line-height: 26px;
-    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     text-align: center;
-    color: #000000;
-    background-color: #ffffff;
-    list-style-type: none;
+    list-style: none;
 }
 /*добавим всем цвет синий и подправим в каждом на другой */
 .advantage-item .list-item {
@@ -146,6 +197,11 @@ body {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    font-weight: 700;
+    min-width: 175px;
+    min-height: 55px;
+    margin: 0;
+    padding: 92px 113px 0 113px;
 }
 
 .advantage-item-paragraph {
@@ -167,7 +223,7 @@ body {
     list-style-type: none;
 }
 
-.advantage-item .list-item {
+.advantage-item {
     background-color: #82B3D3;
 }
 
@@ -252,7 +308,7 @@ body {
     color: #FFFFFF;
     align-items: center;
     background: #333333;
-    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
@@ -295,21 +351,13 @@ body {
     font-style: normal;
     font-weight: 700;
     text-align: center;
-    color: #000000;
-    background-color:  #FFFFFF;
     text-transform: uppercase;
-    background-image: url("../images/index-background-4.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
 }
 
 .newsletter-subscription-paragraph {
     font-size: 22px;
     line-height: 26px;
-    font-style: normal;
     font-weight: 400;
-    color: #000000;
-    background-color:  #FFFFFF;
     text-align: center;
     text-transform: uppercase;
 }
@@ -337,7 +385,8 @@ body {
     color: #000000;
 }
 /* label */
-/* catalog */
+/* catalog */ /* catalog *//* catalog *//* catalog *//* catalog *//* catalog */
+/* catalog*/
 .inner-header-title {
     font-weight: 700;
     font-size: 60px;
@@ -357,14 +406,47 @@ body {
     line-height: 21px;
     color: #FFFFFF;
 }
-/* Title */
+
+.catalog-filter-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 70px 70px 0 0;
+}
+
+.catalog-products {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    min-height: 157px;
+}
+/* Title  инфрастуркутра и прочее*/
 .catalog-filter-title  {
+    margin: 0;
+    padding-bottom: 32px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    min-width: 150px;
   }
+
+.catalog-filter-list {
+    margin: 0;
+    max-width: 105px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 0 0 55px;
+}
+
+.catalog-filter-list-item {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    min-height: 40px
+    list-style: none;
+}
   /* Label */
 .control-label {
     font-style: normal;
@@ -408,6 +490,22 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+ }
+
+ .hotel-card-page {
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .hotel-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 340px;
+    min-height: 438px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 4px;
  }
 
 .hotel-card-title b {
@@ -519,17 +617,41 @@ body {
     background: #82B3D3;
     border-radius: 4px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 .page-footer {
     font-style: normal;
     font-size: 40px;
     font-weight: 400;
     text-align: center;
-    color: #000000;
     background-color: #FFFFFF;
     text-decoration: none;
+    padding: 70px 40px 70px 30px;
 }
 
+.page-footer-container {
+    display: flex;
+    margin: 0 auto;
+}
+/* блок ссылок тг ютуб и др */
+.footer-contact {
+    width: 142px;
+    margin-right: 43px;
+}
+/* стили всем li ссылки */
 .footer-social-list-item {
     visibility: hidden;
     text-align:center;
@@ -540,17 +662,23 @@ body {
 .page-footer a {
     color: #000000;
 }
-
+/* блок телефона */
 .footer-contats-adress {
     font-style: normal;
     font-size: 40px;
     line-height: 40px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #000000;
-    background-color: #FFFFFF;
+    text-align: center;
+    margin-left: auto;
+    width: 720px;
 }
 
 .footer-contats-adress-phone {
     text-decoration: none;
+}
+/* logo*/
+.footer-logo {
+    margin-left: auto;
+    max-width: 115px;
 }
